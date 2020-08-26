@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main(void) {
+ float a,b,x,y;
+  printf("insira o valor de a e b\n");
+  scanf("%f%f",&a,&b);
+  x=-b/a;
+  printf("valor de x:%.2f\n",x);
+
+  return 0;
+}
