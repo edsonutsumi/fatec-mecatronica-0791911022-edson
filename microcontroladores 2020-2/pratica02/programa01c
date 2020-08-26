@@ -7,9 +7,6 @@ int main(void) {
   scanf("%f%f%f",&a,&b,&x);
   y=(a*x)+b;
  
-
-  printf("O valor de y é: %.3f\n");
-
+  printf("O valor de y é:%.3f\n",y);
   
-  return 0;
-}
+  return 0;}
