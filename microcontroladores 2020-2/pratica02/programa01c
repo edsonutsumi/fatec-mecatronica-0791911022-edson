@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main(void) {
+ float a,b,x,y;
+  printf("insira o valor de a,b,x\n");
+  scanf("%f%f%f",&a,&b,&x);
+  y=(a*x)+b;
+ 
+
+  printf("O valor de y é: %.3f\n");
+
+  
+  return 0;
+}
